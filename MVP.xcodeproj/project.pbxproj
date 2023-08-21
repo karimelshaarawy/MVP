@@ -13,6 +13,8 @@
 		FF823B9F2A8CA35500C5FB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF823B9D2A8CA35500C5FB86 /* Main.storyboard */; };
 		FF823BA12A8CA35600C5FB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF823BA02A8CA35600C5FB86 /* Assets.xcassets */; };
 		FF823BA42A8CA35600C5FB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF823BA22A8CA35600C5FB86 /* LaunchScreen.storyboard */; };
+		FF823BAC2A8CA48B00C5FB86 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF823BAB2A8CA48B00C5FB86 /* Presenter.swift */; };
+		FF823BAE2A8CE3AC00C5FB86 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF823BAD2A8CE3AC00C5FB86 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FF823BA02A8CA35600C5FB86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF823BA32A8CA35600C5FB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF823BA52A8CA35600C5FB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF823BAB2A8CA48B00C5FB86 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		FF823BAD2A8CE3AC00C5FB86 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FF823BA02A8CA35600C5FB86 /* Assets.xcassets */,
 				FF823BA22A8CA35600C5FB86 /* LaunchScreen.storyboard */,
 				FF823BA52A8CA35600C5FB86 /* Info.plist */,
+				FF823BAB2A8CA48B00C5FB86 /* Presenter.swift */,
+				FF823BAD2A8CE3AC00C5FB86 /* Request.swift */,
 			);
 			path = MVP;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				FF823B9C2A8CA35500C5FB86 /* ViewController.swift in Sources */,
 				FF823B982A8CA35500C5FB86 /* AppDelegate.swift in Sources */,
+				FF823BAE2A8CE3AC00C5FB86 /* Request.swift in Sources */,
+				FF823BAC2A8CA48B00C5FB86 /* Presenter.swift in Sources */,
 				FF823B9A2A8CA35500C5FB86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
